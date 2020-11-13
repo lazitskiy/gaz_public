@@ -1,0 +1,11 @@
+App\Application\Query\Book\DTO\BookDTO:
+  attributes:
+    id:
+      serialized_name: Id
+      groups: ['book_view', 'book_list']
+    name:
+      serialized_name: Name
+      groups: ['book_view', 'book_list']
+    authorsToArray:
+      serialized_name: Author
+      groups: ['book_view', 'book_list']

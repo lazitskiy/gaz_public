@@ -1,0 +1,8 @@
+App\Application\Query\Author\DTO\AuthorDTO:
+  attributes:
+    id:
+      serialized_name: Id
+      groups: ['author_view', 'author_list']
+    name:
+      serialized_name: Name
+      groups: ['author_view', 'author_list']
