@@ -1,3 +1,9 @@
+### Prepare
+If u system is OSX, then first
+```
+brew install gsed
+```
+
 ### How to install the project
 * `bash setup_env.sh dev` - to setup .env.local docker/.env
 * `make dc_up` - docker-compose up 
